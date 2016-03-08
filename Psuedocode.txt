@@ -1,0 +1,17 @@
+function setup()
+	Create Crosshairs
+	Add score
+	Hide mouse
+
+function loop(e:Event)
+	Crosshair position
+	Spawn enemy
+	Add score text
+
+function articunoClick(e:MouseEvent)
+	+1 to score if Articuno is clicked
+	remove Articuno when clicked
+
+function enemySpawn()
+	Set Articuno position
+	Show Articuno
